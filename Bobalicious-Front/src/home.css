@@ -1,0 +1,37 @@
+html, body {
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+.home-background {
+    background-image: url('https://img.freepik.com/premium-photo/mockup-bubble-tea-pastel-purple-background-offering-soothing-elegant-backdrop-your_868783-79811.jpg?size=626&ext=jpg&ga=GA1.2.2067326251.1724718567&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; 
+    width: 100%;
+    color: rgb(98, 186, 189);
+    text-shadow: purple 1px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    .home-background {
+        min-height: 100vh; 
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .home-background {
+        min-width: 100vh;
+    }
+}     
+
